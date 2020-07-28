@@ -21,7 +21,7 @@ long long minimumNumberOfCoins(int coins[], int numberOfCoins, int val)
 	}
 
 	for (int i = 1; i <= numberOfCoins; i++) {
-		dp[i][0] = 0;
+		dp[i][0] = 1;
 	}
 
 	for (int i = 1; i <= numberOfCoins; i++) {
