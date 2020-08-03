@@ -89,8 +89,7 @@ ll merge(int a, int b, string c) {
 }
 
 
-ll updateValueutil(ll * st, int i, int l, int r,
-                   int x, int y) {
+ll updateValueutil(ll * st, int i, int l, int r, int x, int y) {
     if (l == r and l == x)   return st[i] = y;
     if (x > r or x < l) return st[i];
 
